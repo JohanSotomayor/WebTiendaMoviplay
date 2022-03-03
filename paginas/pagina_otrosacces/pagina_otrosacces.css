@@ -1,0 +1,293 @@
+*{
+	padding:0%; 
+margin:0%; 
+
+}
+.CONTENEDOR-PRINCIPAL{
+	margin:auto;
+	width:98%;  
+background-color:#009DD3;
+
+}
+header{
+	background-color:#FE3521;
+}
+
+body { 
+background-image:url(../../imagenesindex/fondo.jpg);
+}
+
+.cabezera a{
+	text-decoration:none; 
+}
+.cabezera h2{
+	color:white;
+	font-size:10px; 
+	margin-left:18px;  
+}
+.cabezera h2:hover{
+	color:black; 
+}
+.icono-usuario{
+	margin-top:-30px;
+	margin-left:15px;  
+}
+.icono-usuario:hover{
+	background-color:#009DD3; 
+
+}
+
+.cabezera1{
+	margin-top:-30px; 
+}
+.cabezera1 a{
+	text-decoration:none; 
+}
+.cabezera1 h2{
+	color:white;
+	font-size:10px;  
+	margin-left:80px; 
+}
+.cabezera1 h2:hover{
+	color:black; 
+}
+.icono-usuario1{
+	margin-top:-50px;
+	margin-left:80px;
+}
+.icono-usuario1:hover{
+	background-color:#009DD3; 
+
+}
+
+.iconos{
+	margin-top:10px; 
+	margin-left:180px;
+	margin-right:-120px; 
+	 
+}
+.iconos:hover{
+	background-color:#009DD3; 
+
+
+}
+.BUSCADOR{
+	float:right;  
+	margin-top:-35px;  
+	margin-right:5px; 
+
+}
+.logo{
+	margin-top:-15px; 
+	padding:0%; 
+}
+.logotipo{
+	 
+	margin:0%;
+	margin-top:-80px; 
+margin-bottom:-20px;
+ padding:0%; 
+ }
+ .menu {
+margin:auto;  
+    width: 700px;
+
+}
+
+ ul{
+	list-style:none; 
+ 
+}
+.menu li a{
+	text-decoration:none; 
+	background-color:#840FFF; 
+	margin:2px; 
+	padding: 10px 20px;
+	display:block; 
+color:white;
+}
+.menu li a:hover{
+	background-color:#339FFF; 
+}
+.menu > li{
+	float: left;
+}
+.menu li ul{
+	position:absolute;
+min-width:200px;
+	display:none; 
+}
+.menu li:hover > ul{
+	display:block; 
+
+}
+.menu li ul li{
+	position:relative; 
+}
+
+.menu li ul li ul{
+	right:-200px;
+	top:0px; 
+}
+
+.sliders{
+	width:100%; 
+	height:80%; 
+}
+.slider-principal{
+width:100%; 
+margin:auto;
+overflow:hidden; 
+ 
+   
+}
+.slider-principal ul{
+padding:0; 
+display:flex;     
+width:300%;
+animation: cambio-slider-principal 15s infinite; 
+
+}
+.slider-principal p{
+	font-size:95px;
+	font-family:impact;
+	color:black;
+	text-align:center;
+	margin-top:100px;
+	background-color:yellow;
+	height:220px;     
+}
+.slider-principal li{
+	list-style:none;
+width:100%;  
+}
+@keyframes cambio-slider-principal{
+0% {margin-left:0%;}
+40% {margin-left:0%;}
+
+45% {margin-left:-100%;}
+75% {margin-left:-100%;}
+
+80% {margin-left:-200%;}
+100% {margin-left:-200%;}
+}
+.imagenes-menu{
+	display:flex; 
+margin-top:1%;
+width:100%;   
+margin-left:80px; 
+}
+div#img{
+	background-image: url(../../imagenesindex/billeteras.jpg);
+	width:350px; 
+	height:350px;  
+	min-width:350px;  
+}
+div#sombra{
+	position: absolute;
+width:350px; 
+height:350px;
+	background-color:rgba(31, 31, 31, 0.9); 
+-webkit-transition:opacity 0.7s;
+opacity:0; 
+overflow:hidden; 
+}
+div#img:hover div#sombra{
+opacity:1; 
+}
+p#text-billeteras{
+	font-size:45px;
+	color:white;  
+	position: absolute;
+	margin-left:-100px;
+	-webkit-transition:margin 0.5s;
+	margin-top:150px; 
+	font-family: impact;
+}
+p#text-billeteras:hover{
+	color:#009DD3; 
+}
+
+div#img:hover p#text-billeteras{
+margin-left:65px; 
+}
+div#img2{
+	background-image: url(../../imagenesindex/funkos.jpg);
+	width:350px; 
+	height:350px;  
+	min-width:350px;  
+	margin-right:40px;
+	margin-left:40px;  
+}
+div#sombra2{
+	position: absolute;
+width:350px; 
+height:350px;
+	background-color:rgba(31, 31, 31, 0.9); 
+-webkit-transition:opacity 0.7s;
+opacity:0; 
+overflow:hidden; 
+}
+div#img2:hover div#sombra2{
+opacity:1; 
+}
+p#text-funkos{
+	font-size:45px;
+	color:white;  
+	position: absolute;
+	margin-left:-100px;
+	-webkit-transition:margin 0.5s;
+	margin-top:150px; 
+	font-family: impact;
+}
+p#text-funkos:hover{
+	color:#009DD3; 
+}
+
+div#img2:hover p#text-funkos{
+margin-left:95px; 
+}
+div#img3{
+	background-image: url(../../imagenesindex/gorras.jpg);
+	width:350px; 
+	height:350px;  
+	min-width:350px;  
+}
+div#sombra3{
+	position: absolute;
+width:350px; 
+height:350px;
+	background-color:rgba(31, 31, 31, 0.9); 
+-webkit-transition:opacity 0.7s;
+opacity:0; 
+overflow:hidden; 
+}
+div#img3:hover div#sombra3{
+opacity:1; 
+}
+p#text-GORRAS{
+	font-size:40px;
+	color:white;  
+	position: absolute;
+	margin-left:-100px;
+	-webkit-transition:margin 0.5s;
+	margin-top:120px; 
+	font-family: impact;
+	text-align: center; 
+}
+p#text-GORRAS:hover{
+	color:#009DD3; 
+}
+
+div#img3:hover p#text-GORRAS{
+margin-left:0px; 
+}
+footer{
+	background-image: url(../../imagenesindex/footer2.jpg);
+	width:100%; 
+	height:400px;
+font-size:20px; 
+color: white;
+margin-top:1.5%;
+font-family: impact; 
+}
